@@ -2,7 +2,7 @@
 version: '3'
 services: 
     app:
-        image: nueva_app:1 #:BUILD_TAG  descomentar en jenkins
+        image: nueva_app:#:BUILD_TAG
         build: 
             context: .
         # dockerfile: Dockerfile  (esta linea solo se agrega si el nombre es diferente a Dockerfile)
